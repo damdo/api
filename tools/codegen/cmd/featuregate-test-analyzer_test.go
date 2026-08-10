@@ -611,7 +611,7 @@ func Test_filterVariants(t *testing.T) {
 	}{
 		{
 			name:        "AWS feature gate matches aws hypershift variant with external topology",
-			featureGate: "AWSServiceLBNetworkSecurityGroup",
+			featureGate: "AWSClusterHostedDNS",
 			variants: [][]JobVariant{
 				requiredHypershiftJobVariants,
 			},
